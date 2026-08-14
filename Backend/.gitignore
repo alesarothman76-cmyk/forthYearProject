@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+/media/
+/staticfiles/
+/venv/
+/.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large ML model weight files - never committed
+ml_models/*.pth
+ml_models/*.pkl

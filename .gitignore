@@ -1,0 +1,49 @@
+# ==========================================
+# 1. Shared & Environment Configurations
+# ==========================================
+.env
+*.local
+
+# ==========================================
+# 2. Frontend (Node.js / JS / TS)
+# ==========================================
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+
+# ==========================================
+# 3. Backend (Python / Django)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+/media/
+/staticfiles/
+/venv/
+/.venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# 4. Machine Learning & Heavy Files
+# ==========================================
+# Model weights and serialized files
+ml_models/*.pth
+ml_models/*.pt
+ml_models/*.pkl
+ml_models/*.onnx
+ml_models/*.h5
+
+# ==========================================
+# 5. IDE & System Files (Optional)
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
